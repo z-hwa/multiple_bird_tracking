@@ -1,0 +1,13 @@
+TrackEval
+assets
+deploy
+docs
+exps
+fast_reid
+motmetrics
+pretrained
+tools
+trackers
+trackeval
+utils
+yolox
