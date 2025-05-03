@@ -185,8 +185,10 @@ results_cut.bbox.json
 ```
 
 ### iii. Ensemble
-Last, ensemble both detection result
+Last, ensemble both detection result.
+Before ensembling, need to install pycocotools first.
 ```
+pip install pycocotools
 python MVA2023-SOD4SB/tools/annotations/predict_result_ensemble_by_cut.py ./results_base.bbox.json ./results_cut.bbox.json ./result.bbox.json
 ```
 
