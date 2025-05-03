@@ -42,10 +42,16 @@ pip install -v -e .
 2. mmcv's device detect problem: 
     ref: https://github.com/open-mmlab/mmdetection/issues/10720
 
-    Find the code in the first image(which located at "mmcv\parallel\_functions.py")
+    Find the code in the first image(which located at "mmcv\parallel\\_functions.py")
     Then replace by the second image's code.
     ![image](https://hackmd.io/_uploads/H1cKZ4Z0kx.png)
     ![image](https://hackmd.io/_uploads/S1x9bNWAye.png)
+
+   you can also copy from here
+   ```
+   tmp_target_gpus = [torch.device('cuda', device) for device in target_gpus]
+   streams = [_get_stream(device) for device in tmp_target_gpus]
+   ```
 
 ### ii. Hybrid sort
 
