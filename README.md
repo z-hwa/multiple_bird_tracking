@@ -8,6 +8,8 @@ This is the step to reproduct the best inference result of zhwa2003.
 
 ## 1. Enviroument requirement
 
+The python version is 3.8 in my project.
+
 We need to install following tools.
 * mmdet
 * hybrid sort
