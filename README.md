@@ -30,7 +30,7 @@ mim install mmcv-full==1.7.2
 Last, install the mmdet.
 In the project's folder, run the following command
 ```
-cd MVA2025-SMOT4SB
+cd MVA2023-SOD4SB
 pip install -v -e .
 ```
 
