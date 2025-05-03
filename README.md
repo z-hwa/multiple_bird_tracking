@@ -1,6 +1,7 @@
 # MVA2025 submit
 
 This is the step to reproduct the best inference result of zhwa2003.
+To reproduct, following the step from 1 to 5.
 
 ## Overview
 
@@ -222,3 +223,22 @@ Finally, the mot format result will be output at
 ```
 HybridSORT_outputs/private_test/
 ```
+
+## 5 Post Processing
+
+After we got the mot format result, we do the postprocessing next.
+
+So we do interpolation by following code.
+```
+python MVA2025-SMOT4SB\OC_SORT\tools\my_tools\interpolation.py <previous_mot_result_folder> <final_output_path>
+```
+
+---
+
+### Example
+
+```
+python3 OC_SORT/tools/my_tools/interpolation.py HybridSORT_outputs/private_test/predictions/pub_test/ HybridSORT_outputs/private_test_inter/predictions/pub_test/
+```
+
+After upper code working, the final result will be output at folder "HybridSORT_outputs/private_test_inter/predictions/pub_test/""
