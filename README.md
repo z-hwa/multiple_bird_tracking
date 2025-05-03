@@ -241,4 +241,4 @@ python MVA2025-SMOT4SB/OC_SORT/tools/my_tools/interpolation.py <previous_mot_res
 python3 MVA2025-SMOT4SB/OC_SORT/tools/my_tools/interpolation.py HybridSORT_outputs/private_test/predictions/pub_test/ HybridSORT_outputs/private_test_inter/predictions/pub_test/
 ```
 
-After upper code working, the final result will be output at folder "HybridSORT_outputs/private_test_inter/predictions/pub_test/""
+After upper code working, the final result will be output at folder "HybridSORT_outputs/private_test_inter"
