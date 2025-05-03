@@ -107,6 +107,8 @@ To inference, we need prepare coco format empty annotation of the target data.
 python MVA2025-SMOT4SB/scripts/convert_dir_to_coco.py <your_path_to_target_data_dir> <output_position_of_coco_format_empty_annotation>
 ```
 
+---
+
 #### Example
 Using phase2's data as example, we put public data at
 ```
@@ -130,6 +132,8 @@ Thus, run the following code
 ```
 python MVA2025-SMOT4SB/scripts/convert_dir_to_coco.py /root/Document/data/MVA2025/pub_test ./test_coco.json
 ```
+
+---
 
 ### ii. using mmdet to detection
 
